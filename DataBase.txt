@@ -1,0 +1,71 @@
+														* DataBase*
+
+
+1. What do you understand By Database 
+
+Ans: A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).
+
+2. What is Normalization? 
+
+Ans: In database management systems (DBMS), normal forms are a series of guidelines that help to ensure that the design of a database is efficient, organized, and free from data anomalies. There are several levels of normalization, each with its own set of guidelines, known as normal forms.
+
+3. What is Difference between DBMS and RDBMS?		
+
+Ans:    		DBMS									RDBMS
+
+-  Data stored is in the file format			  -  Data stored is in table format
+
+-  Individual access of data elements		 	 -  Multiple data elements are accessible together
+
+-  No connection between data				  -  Data in the form of a table are linked together
+
+-  There is normalisation 				-  Normalisation is not achievable
+
+-  No support for distributed database		 	 -  Support distributed database
+
+-  Data stored is a small quantity			 -  Data is stored in a large amount
+
+-  Data redundancy is common 			 	 -  Here, redundancy of data is reduced with the help of key and indexes in RDBMS
+
+-  DBMS supports a single user			 	 -  RDBMS supports multiple users
+
+-  There is only low security while 			 -  It features multiple layers of security while handling data
+    handling data
+
+-  The software and hardware				 -  The software and hardware requirements are higher
+    requirements are low
+
+-  XML, Microsoft Access.				-  Oracle, SQL Server.
+
+
+4. What is MF Cod Rule of RDBMS Systems? 
+
+Ans: Codd's rule in DBMS also known as Codd's 12 rules/commandments is a set of thirteen rules (numbered 0 to 12) that define a database to be a correct Relational Database Management System (RDBMS). If a database follows Codd's 12 rules, it is called a True relational database management system.
+
+5. What do you understand By Data Redundancy? 
+
+Ans: Data redundancy occurs when the same piece of data exists in multiple places, whereas data inconsistency is when the same data exists in different formats in multiple tables. Unfortunately, data redundancy can cause data inconsistency, which can provide a company with unreliable and/or meaningless information.
+
+6. What is DDL Interpreter?
+
+Ans: DDL Interpreter: It processes the DDL statements into a set of table containing meta data (data about data). Embedded DML Pre-compiler: It processes DML statements embedded in an application program into procedural calls.
+
+7. What is DML Compiler in SQL? 
+
+Ans: A DML (data manipulation language) refers to a computer programming language that allows you to add (insert), delete (delete), and alter (update) data in a database. A DML is typically a sublanguage of a larger database language like SQL, with the DML containing some of the language's operators.
+
+8. What is SQL Key Constraints writing an Example of SQL Key Constraints
+
+Ans: SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+
+9. What is save Point? How to create a save Point write a Query? 
+
+Ans: A SAVEPOINT is a point in a transaction in which you can roll the transaction back to a certain point without rolling back the entire transaction. Syntax for Savepoint command: SAVEPOINT SAVEPOINT_NAME; This command is used only in the creation of SAVEPOINT among all the transactions.
+
+10. What is trigger and how to create a Trigger in SQL?
+
+Ans: A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. DML triggers run when a user tries to modify data through a data manipulation language (DML) event. DML events are INSERT, UPDATE, or DELETE statements on a table or view.
+
+
+
+
